@@ -3,1271 +3,579 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Matheus Pereira | Cloud DevOps Engineer • Java • AWS • Linux</title>
+  <title>Matheus Pereira | Cloud DevOps Engineer</title>
   
   <!-- Primary Meta Tags -->
   <meta name="title" content="Matheus Pereira | Cloud DevOps Engineer • Java • AWS • Linux">
-  <meta name="description" content="Engenheiro Cloud DevOps especialista no ecossistema Java (Spring Boot), automação de infraestrutura em nuvem (AWS) e Linux (Debian/Red Hat). Experiência em CI/CD, PIX em larga escala, Kafka, RabbitMQ e Quality Gates.">
-  <meta name="keywords" content="Matheus Pereira, Cloud DevOps Engineer, DevOps, Java, Spring Boot, AWS, Linux, Debian, Red Hat, Docker, Jenkins, JaCoCo, Kafka, RabbitMQ, PostgreSQL, SEMFAZ, UFS, Engenharia de Computação">
+  <meta name="description" content="Engenheiro Cloud DevOps com sólida bagagem em backend Java (Spring Boot), automação de infraestrutura AWS e administração Linux (Debian e Red Hat).">
   <meta name="author" content="Matheus Araujo Pereira">
   <meta name="theme-color" content="#0A0F1D">
-  <link rel="canonical" href="https://matheus-pereira-devops.vercel.app">
+  <link rel="canonical" href="https://matheus-devops.vercel.app">
 
-  <!-- Open Graph / Facebook / LinkedIn -->
+  <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://matheus-pereira-devops.vercel.app">
+  <meta property="og:url" content="https://matheus-devops.vercel.app">
   <meta property="og:title" content="Matheus Pereira | Cloud DevOps Engineer • Java • AWS • Linux">
-  <meta property="og:description" content="Currículo e portfólio executivo de Matheus Pereira. Especialista em Java, nuvem AWS, automação Linux corporativo e arquiteturas de alta resiliência.">
+  <meta property="og:description" content="Engenheiro Cloud DevOps com sólida bagagem em backend Java (Spring Boot), automação AWS, Linux e esteiras CI/CD.">
   <meta property="og:locale" content="pt_BR">
-  <meta property="og:site_name" content="Matheus Pereira - Currículo Online">
-
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:title" content="Matheus Pereira | Cloud DevOps Engineer • Java • AWS • Linux">
-  <meta property="twitter:description" content="Engenheiro Cloud DevOps com experiência em Java 21, AWS, Linux, esteiras CI/CD e integração PIX em tempo real.">
 
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 
-  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <!-- Google Font: Inter -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-  <!-- Schema.org JSON-LD -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Matheus Araujo Pereira",
-    "jobTitle": "Cloud DevOps Engineer",
-    "url": "https://matheus-pereira-devops.vercel.app",
-    "email": "matharaupere@gmail.com",
-    "telephone": "+55-79-99998-4882",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Aracaju",
-      "addressRegion": "SE",
-      "addressCountry": "BR"
-    },
-    "sameAs": [
-      "https://linkedin.com/in/matheus-araujo-pereira",
-      "https://github.com/matheus-araujo-pereira",
-      "https://wa.me/5579999984882"
-    ],
-    "alumniOf": {
-      "@type": "CollegeOrUniversity",
-      "name": "Universidade Federal de Sergipe (UFS)"
-    },
-    "knowsAbout": [
-      "Cloud Computing AWS",
-      "Linux Administration (Debian, Red Hat)",
-      "DevOps & CI/CD (Docker, Jenkins)",
-      "Java (8, 17, 21), Spring Boot",
-      "Message Brokers (Kafka, RabbitMQ)",
-      "Database Tuning (PostgreSQL, Oracle DB, MySQL)",
-      "Software Quality (JUnit, JaCoCo Quality Gates)"
-    ]
-  }
-  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
-<body class="bg-[#0A0F1D] text-gray-200 antialiased selection:bg-sky-500/30 selection:text-sky-200 min-h-screen flex flex-col bg-tech-grid">
+<body class="bg-[#0A0F1D] text-gray-300 antialiased selection:bg-sky-500/20 selection:text-sky-200 min-h-screen flex flex-col font-sans">
 
   <!-- ========================================================================
-       HEADER / NAVBAR
+       1. BARRA SUPERIOR (NAVBAR FIXO E MINIMALISTA)
        ======================================================================== -->
-  <header id="main-nav" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 py-3.5 px-4 sm:px-6 lg:px-8">
-    <div class="max-w-7xl mx-auto flex items-center justify-between">
-      <!-- Logo / Name -->
-      <a href="#" class="group flex items-center gap-2.5 focus-visible:ring-2 focus-visible:ring-sky-400 rounded-lg p-1">
-        <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-sky-400 to-cyan-600 flex items-center justify-center text-[#0A0F1D] font-mono-code font-bold text-sm shadow-md shadow-sky-500/20 group-hover:scale-105 transition-transform">
-          &gt;_
-        </div>
-        <div class="flex items-center gap-2">
-          <span class="font-bold text-base sm:text-lg tracking-tight text-white group-hover:text-sky-300 transition-colors">
-            Matheus Pereira
-          </span>
-          <span class="font-mono-code text-[11px] px-2 py-0.5 rounded bg-sky-950/80 text-sky-400 border border-sky-800/60 font-medium">
-            [DevOps]
-          </span>
-        </div>
+  <header id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-200 border-b border-transparent">
+    <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
+      
+      <!-- Nome / Título Executivo -->
+      <a href="#" class="flex items-center gap-2.5 text-sm font-medium focus-visible:ring-1 focus-visible:ring-sky-400 rounded-md">
+        <span class="text-white font-semibold tracking-tight hover:text-sky-300 transition-colors">Matheus Pereira</span>
+        <span class="text-gray-600">|</span>
+        <span class="text-gray-400 text-xs sm:text-sm">Cloud DevOps Engineer</span>
       </a>
 
-      <!-- Desktop Navigation Links -->
-      <nav class="hidden md:flex items-center gap-6 lg:gap-8 font-medium text-sm text-gray-300" aria-label="Navegação principal">
-        <a href="#sobre" class="desktop-nav-link hover:text-sky-400 transition-colors py-1">Sobre</a>
-        <a href="#experiencia" class="desktop-nav-link hover:text-sky-400 transition-colors py-1">Experiência</a>
-        <a href="#habilidades" class="desktop-nav-link hover:text-sky-400 transition-colors py-1">Stack &amp; Skills</a>
-        <a href="#formacao" class="desktop-nav-link hover:text-sky-400 transition-colors py-1">Formação</a>
-        <a href="#contato" class="desktop-nav-link hover:text-sky-400 transition-colors py-1">Contato</a>
+      <!-- Links de Navegação Desktop -->
+      <nav class="hidden md:flex items-center gap-7 text-sm font-medium text-gray-400" aria-label="Navegação">
+        <a href="#sobre" class="desktop-nav-link hover:text-white transition-colors">Sobre</a>
+        <a href="#experiencia" class="desktop-nav-link hover:text-white transition-colors">Experiência</a>
+        <a href="#habilidades" class="desktop-nav-link hover:text-white transition-colors">Habilidades</a>
+        <a href="#formacao" class="desktop-nav-link hover:text-white transition-colors">Formação</a>
       </nav>
 
-      <!-- Right Action & WhatsApp Button -->
+      <!-- Ação Rápida Topo -->
       <div class="hidden sm:flex items-center gap-3">
-        <a href="https://wa.me/5579999984882?text=Ol%C3%A1%20Matheus%2C%20vi%20seu%20curr%C3%ADculo%20online%20e%20gostaria%20de%20conversar%20sobre%20uma%20oportunidade." 
-           target="_blank" 
-           rel="noopener noreferrer"
-           class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 hover:bg-emerald-500/20 hover:border-emerald-500/60 transition-all shadow-sm shadow-emerald-500/10">
-          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-          <span>Falar no WhatsApp</span>
+        <a href="/curriculo_matheus_araujo_pereira_java_aws_linux.pdf" 
+           download="curriculo_matheus_araujo_pereira_java_aws_linux.pdf"
+           class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-lg text-xs font-medium text-gray-200 bg-white/[0.05] hover:bg-white/[0.1] border border-white/10 transition-colors">
+          <svg class="w-3.5 h-3.5 text-sky-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+          </svg>
+          <span>Baixar PDF</span>
         </a>
       </div>
 
       <!-- Mobile Hamburger Button -->
       <button id="mobile-menu-btn" 
               type="button" 
-              class="md:hidden p-2 rounded-lg text-gray-400 hover:text-white hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-sky-400" 
-              aria-controls="mobile-menu" 
+              class="md:hidden p-2 text-gray-400 hover:text-white focus:outline-none" 
               aria-expanded="false" 
-              aria-label="Abrir menu de navegação">
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              aria-label="Menu principal">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
         </svg>
       </button>
+
     </div>
 
-    <!-- Mobile Drawer Dropdown -->
-    <div id="mobile-menu" class="hidden md:hidden mt-3 pt-3 pb-4 px-4 rounded-xl bg-[#111827]/95 border border-gray-800 backdrop-blur-xl shadow-2xl">
-      <nav class="flex flex-col gap-3 font-medium text-sm text-gray-200">
-        <a href="#sobre" class="mobile-nav-link hover:text-sky-400 p-2 rounded-lg hover:bg-gray-800/60">Sobre</a>
-        <a href="#experiencia" class="mobile-nav-link hover:text-sky-400 p-2 rounded-lg hover:bg-gray-800/60">Experiência Profissional</a>
-        <a href="#habilidades" class="mobile-nav-link hover:text-sky-400 p-2 rounded-lg hover:bg-gray-800/60">Cloud &amp; DevOps Stack</a>
-        <a href="#formacao" class="mobile-nav-link hover:text-sky-400 p-2 rounded-lg hover:bg-gray-800/60">Formação &amp; Certificações</a>
-        <a href="#contato" class="mobile-nav-link hover:text-sky-400 p-2 rounded-lg hover:bg-gray-800/60">Contato</a>
-        <div class="pt-2 border-t border-gray-800 flex flex-col gap-2">
-          <a href="https://wa.me/5579999984882" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-2 p-2.5 rounded-lg bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 font-semibold text-xs">
-            <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
-            Falar no WhatsApp (+55 79 99998-4882)
-          </a>
-          <a href="/curriculo_matheus_araujo_pereira_java_aws_linux.pdf" download="curriculo_matheus_araujo_pereira_java_aws_linux.pdf" class="flex items-center justify-center gap-2 p-2.5 rounded-lg bg-sky-500/10 text-sky-400 border border-sky-500/30 font-semibold text-xs">
+    <!-- Mobile Drawer -->
+    <div id="mobile-menu" class="hidden md:hidden px-6 pt-3 pb-6 bg-[#0B132B] border-b border-white/10">
+      <nav class="flex flex-col gap-3 text-sm font-medium">
+        <a href="#sobre" class="nav-link py-2 text-gray-300 hover:text-white">Sobre</a>
+        <a href="#experiencia" class="nav-link py-2 text-gray-300 hover:text-white">Experiência</a>
+        <a href="#habilidades" class="nav-link py-2 text-gray-300 hover:text-white">Habilidades</a>
+        <a href="#formacao" class="nav-link py-2 text-gray-300 hover:text-white">Formação</a>
+        <div class="pt-3 border-t border-white/10 flex flex-col gap-2">
+          <a href="/curriculo_matheus_araujo_pereira_java_aws_linux.pdf" download class="inline-flex items-center justify-center gap-2 py-2.5 rounded-lg text-xs font-medium text-white bg-white/10">
             Baixar Currículo em PDF
+          </a>
+          <a href="https://wa.me/5579999984882" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 py-2.5 rounded-lg text-xs font-medium text-emerald-400 bg-emerald-950/40 border border-emerald-500/20">
+            WhatsApp: (79) 99998-4882
           </a>
         </div>
       </nav>
     </div>
   </header>
 
-  <main class="flex-grow pt-24">
-    <!-- ========================================================================
-         HERO SECTION
-         ======================================================================== -->
-    <section id="sobre" class="relative pt-8 pb-16 md:pt-14 md:pb-24 px-4 sm:px-6 lg:px-8 overflow-hidden">
-      <!-- Glow ambient background spots -->
-      <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[550px] h-[320px] bg-gradient-to-tr from-sky-600/15 to-cyan-400/10 rounded-full blur-3xl pointer-events-none -z-10"></div>
-      
-      <div class="max-w-7xl mx-auto">
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
-          
-          <!-- Left Column: Executive Summary & CTAs -->
-          <div class="lg:col-span-7 flex flex-col items-start space-y-6">
-            
-            <!-- Availability status badge -->
-            <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-950/60 border border-emerald-500/30 text-emerald-400 text-xs font-semibold font-mono-code shadow-sm shadow-emerald-950">
-              <span class="relative flex h-2.5 w-2.5">
-                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-                <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
-              </span>
-              <span>Disponível para contratação (Remoto / Presencial)</span>
-            </div>
+  <!-- ========================================================================
+       CONTEÚDO PRINCIPAL
+       ======================================================================== -->
+  <main class="flex-grow pt-28 sm:pt-32 pb-20">
+    <div class="max-w-4xl mx-auto px-6">
 
-            <!-- Main Headline -->
-            <div>
-              <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight leading-tight">
-                Matheus Araujo Pereira
-              </h1>
-              <div class="mt-2.5 text-lg sm:text-xl lg:text-2xl font-bold bg-gradient-to-r from-sky-400 via-cyan-300 to-emerald-400 bg-clip-text text-transparent flex items-center gap-2">
-                <span>Cloud DevOps Engineer</span>
-                <span class="text-gray-500 text-base font-normal">|</span>
-                <span class="text-gray-200 text-base sm:text-lg font-mono-code font-semibold">Java • AWS • Linux</span>
-              </div>
-              <div class="mt-2 flex items-center gap-2 text-xs sm:text-sm text-gray-400">
-                <svg class="w-4 h-4 text-sky-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                </svg>
-                <span>Aracaju, SE – Brasil</span>
-              </div>
-            </div>
-
-            <!-- Executive Pitch (Direct from PDF) -->
-            <p class="text-sm sm:text-base text-gray-300 leading-relaxed max-w-2xl text-justify sm:text-left">
-              Engenheiro Cloud DevOps com sólida bagagem em desenvolvimento backend no ecossistema 
-              <strong class="text-white font-semibold">Java (Spring Boot)</strong> e foco em automação de infraestrutura em nuvem 
-              <strong class="text-white font-semibold">(AWS)</strong> e administração de sistemas 
-              <strong class="text-white font-semibold">Linux (Debian e Red Hat)</strong>. Experiência na criação e sustentação de pipelines de 
-              <strong class="text-sky-300 font-semibold">CI/CD (Jenkins, Docker)</strong>, integração de meios de pagamento em larga escala 
-              <strong class="text-emerald-400 font-semibold">(PIX)</strong> e arquiteturas orientadas a eventos com 
-              <strong class="text-white font-semibold">Apache Kafka e RabbitMQ</strong>. Histórico em sistemas corporativos e governamentais de alta criticidade, atuando com políticas rigorosas de qualidade de código 
-              <strong class="text-sky-300 font-semibold">(100% de cobertura com JUnit, TestNG e JaCoCo)</strong> e governança em nuvem 
-              <strong class="text-white font-semibold">(AWS IAM)</strong>. Mestrando em Ciência da Computação e graduando em Engenharia de Computação pela UFS.
-            </p>
-
-            <!-- Call-to-action buttons -->
-            <div class="pt-2 flex flex-wrap items-center gap-3 w-full sm:w-auto">
-              <!-- Primary CTA: Download PDF -->
-              <a href="/curriculo_matheus_araujo_pereira_java_aws_linux.pdf" 
-                 download="curriculo_matheus_araujo_pereira_java_aws_linux.pdf"
-                 class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-6 py-3 rounded-xl bg-gradient-to-r from-sky-500 to-cyan-500 text-slate-950 font-bold text-sm hover:from-sky-400 hover:to-cyan-400 transition-all shadow-lg shadow-sky-500/25 hover:shadow-sky-500/40 hover:-translate-y-0.5 focus:ring-2 focus:ring-sky-300">
-                <svg class="w-4 h-4 text-slate-950" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
-                </svg>
-                <span>Baixar Currículo em PDF</span>
-              </a>
-
-              <!-- Secondary CTA: LinkedIn -->
-              <a href="https://linkedin.com/in/matheus-araujo-pereira" 
-                 target="_blank" 
-                 rel="noopener noreferrer"
-                 class="flex-1 sm:flex-initial inline-flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-[#1C2541] border border-gray-700/80 text-gray-200 font-semibold text-sm hover:text-white hover:border-sky-400/60 hover:bg-[#222e54] transition-all">
-                <svg class="w-4 h-4 text-sky-400" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
-                </svg>
-                <span>LinkedIn</span>
-              </a>
-
-              <!-- Secondary CTA: WhatsApp -->
-              <a href="https://wa.me/5579999984882?text=Ol%C3%A1%20Matheus%2C%20vi%20seu%20curr%C3%ADculo%20online%20e%20gostaria%20de%20conversar%20sobre%20uma%20oportunidade." 
-                 target="_blank" 
-                 rel="noopener noreferrer"
-                 class="flex-1 sm:flex-initial inline-flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-[#1C2541] border border-emerald-500/30 text-emerald-300 font-semibold text-sm hover:text-emerald-200 hover:border-emerald-500/70 hover:bg-[#16382e] transition-all">
-                <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
-                </svg>
-                <span>WhatsApp</span>
-              </a>
-
-              <!-- Secondary CTA: GitHub -->
-              <a href="https://github.com/matheus-araujo-pereira" 
-                 target="_blank" 
-                 rel="noopener noreferrer"
-                 class="inline-flex items-center justify-center gap-2 p-3 rounded-xl bg-[#1C2541] border border-gray-700/80 text-gray-300 hover:text-white hover:border-gray-500 hover:bg-[#222e54] transition-all"
-                 title="Ver perfil no GitHub">
-                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
-                </svg>
-              </a>
-
-              <!-- Copy Email Button -->
-              <button type="button"
-                      data-copy="matharaupere@gmail.com"
-                      class="copy-btn inline-flex items-center justify-center gap-1.5 px-3.5 py-3 rounded-xl bg-[#111827] border border-gray-800 text-xs font-mono-code text-gray-300 hover:text-sky-300 hover:border-gray-700 transition-all cursor-pointer"
-                      title="Copiar e-mail">
-                <svg class="w-3.5 h-3.5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
-                </svg>
-                <span>matharaupere@gmail.com</span>
-              </button>
-            </div>
-
-          </div>
-
-          <!-- Right Column: Interactive DevOps Terminal -->
-          <div class="lg:col-span-5">
-            <div class="glass-panel rounded-2xl overflow-hidden border border-gray-800/80 shadow-2xl">
-              <!-- Terminal Header Bar -->
-              <div class="bg-[#111827] px-4 py-3 border-b border-gray-800 flex items-center justify-between">
-                <div class="flex items-center space-x-2">
-                  <span class="w-3 h-3 rounded-full bg-red-500/80 inline-block"></span>
-                  <span class="w-3 h-3 rounded-full bg-yellow-500/80 inline-block"></span>
-                  <span class="w-3 h-3 rounded-full bg-emerald-500/80 inline-block"></span>
-                </div>
-                <div class="text-[11px] font-mono-code text-gray-400 flex items-center gap-1.5">
-                  <span class="text-sky-400">bash</span>
-                  <span>—</span>
-                  <span class="text-gray-300">matheus@cloud-devops: ~ (aws:us-east-1)</span>
-                </div>
-                <div class="text-[10px] font-mono-code text-emerald-400 flex items-center gap-1">
-                  <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping"></span>
-                  <span>LIVE</span>
-                </div>
-              </div>
-
-              <!-- Terminal Quick Command Badges -->
-              <div class="bg-[#0e1424] px-3.5 py-2 border-b border-gray-800/70 flex items-center gap-1.5 overflow-x-auto text-[11px] font-mono-code">
-                <span class="text-gray-500 mr-1 select-none">Quick:</span>
-                <button type="button" data-cmd="summary" class="quick-cmd-btn px-2 py-0.5 rounded bg-gray-800/80 text-sky-300 hover:bg-sky-900/50 hover:text-white border border-gray-700 transition-colors">summary</button>
-                <button type="button" data-cmd="skills" class="quick-cmd-btn px-2 py-0.5 rounded bg-gray-800/80 text-emerald-300 hover:bg-emerald-900/50 hover:text-white border border-gray-700 transition-colors">skills</button>
-                <button type="button" data-cmd="experience" class="quick-cmd-btn px-2 py-0.5 rounded bg-gray-800/80 text-cyan-300 hover:bg-cyan-900/50 hover:text-white border border-gray-700 transition-colors">experience</button>
-                <button type="button" data-cmd="aws" class="quick-cmd-btn px-2 py-0.5 rounded bg-gray-800/80 text-amber-300 hover:bg-amber-900/50 hover:text-white border border-gray-700 transition-colors">aws</button>
-                <button type="button" data-cmd="help" class="quick-cmd-btn px-2 py-0.5 rounded bg-gray-800/80 text-purple-300 hover:bg-purple-900/50 hover:text-white border border-gray-700 transition-colors">help</button>
-                <button type="button" data-cmd="clear" class="quick-cmd-btn px-2 py-0.5 rounded bg-gray-850 text-gray-400 hover:text-red-300 border border-gray-800 transition-colors">clear</button>
-              </div>
-
-              <!-- Terminal Body / Interactive Output -->
-              <div id="terminal-output" class="p-4 h-[240px] sm:h-[270px] overflow-y-auto font-mono-code text-xs space-y-2 bg-[#080d1a]/90">
-                <div class="text-gray-400">
-                  <span class="text-sky-400">AWS DevOps Workstation</span> [Kernel 6.8.0-cloud-aws x86_64]
-                </div>
-                <div class="text-emerald-400 text-[11px]">
-                  ✓ System initialized. All security policies &amp; IAM roles verified.
-                </div>
-                <div class="text-gray-300 text-[11px] pt-1">
-                  Digite um comando abaixo ou clique nas tags de atalho acima.
-                  Exemplo: <span class="text-cyan-400 font-bold underline cursor-pointer" onclick="window.runQuickCmd('summary')">summary</span>, 
-                  <span class="text-cyan-400 font-bold underline cursor-pointer" onclick="window.runQuickCmd('skills')">skills</span>, 
-                  <span class="text-cyan-400 font-bold underline cursor-pointer" onclick="window.runQuickCmd('help')">help</span>.
-                </div>
-              </div>
-
-              <!-- Terminal Input Prompt -->
-              <form id="terminal-form" class="bg-[#0d1326] px-4 py-2.5 border-t border-gray-800 flex items-center gap-2">
-                <span class="font-mono-code text-xs text-cyan-400 font-bold select-none">matheus@devops:~$</span>
-                <input id="terminal-input" 
-                       type="text" 
-                       class="flex-1 bg-transparent border-0 p-0 font-mono-code text-xs text-white focus:outline-none focus:ring-0 placeholder-gray-600" 
-                       placeholder="Digite um comando (ex: help, aws, skills)..." 
-                       autocomplete="off" 
-                       spellcheck="false">
-                <button type="submit" class="text-xs font-mono-code px-2 py-1 rounded bg-sky-500/20 text-sky-400 hover:bg-sky-500/30 transition-colors">
-                  Executar
-                </button>
-              </form>
-            </div>
-          </div>
-
-        </div>
-
-        <!-- KPI / Metrics Grid Bar -->
-        <div class="mt-14 grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
-          <!-- Metric 1 -->
-          <div class="glass-panel glass-panel-hover p-4 sm:p-5 rounded-2xl border border-gray-800/80">
-            <div class="flex items-center justify-between">
-              <span class="text-2xl sm:text-3xl font-extrabold text-white font-mono-code">100%</span>
-              <div class="w-8 h-8 rounded-lg bg-sky-500/10 text-sky-400 flex items-center justify-center">
-                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                </svg>
-              </div>
-            </div>
-            <p class="mt-2 text-xs sm:text-sm font-semibold text-gray-200">Quality Gates &amp; Testes</p>
-            <p class="text-[11px] text-gray-400 mt-0.5">Cobertura JaCoCo, JUnit 5 e TestNG</p>
-          </div>
-
-          <!-- Metric 2 -->
-          <div class="glass-panel glass-panel-hover p-4 sm:p-5 rounded-2xl border border-gray-800/80">
-            <div class="flex items-center justify-between">
-              <span class="text-2xl sm:text-3xl font-extrabold text-emerald-400 font-mono-code">&lt; 1s</span>
-              <div class="w-8 h-8 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center">
-                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
-                </svg>
-              </div>
-            </div>
-            <p class="mt-2 text-xs sm:text-sm font-semibold text-gray-200">PIX em Tempo Real</p>
-            <p class="text-[11px] text-gray-400 mt-0.5">Liquidação instantânea fazendária</p>
-          </div>
-
-          <!-- Metric 3 -->
-          <div class="glass-panel glass-panel-hover p-4 sm:p-5 rounded-2xl border border-gray-800/80">
-            <div class="flex items-center justify-between">
-              <span class="text-2xl sm:text-3xl font-extrabold text-cyan-400 font-mono-code">20+</span>
-              <div class="w-8 h-8 rounded-lg bg-cyan-500/10 text-cyan-400 flex items-center justify-center">
-                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path>
-                </svg>
-              </div>
-            </div>
-            <p class="mt-2 text-xs sm:text-sm font-semibold text-gray-200">Devs Capacitados</p>
-            <p class="text-[11px] text-gray-400 mt-0.5">Treinamento intensivo Java Backend</p>
-          </div>
-
-          <!-- Metric 4 -->
-          <div class="glass-panel glass-panel-hover p-4 sm:p-5 rounded-2xl border border-gray-800/80">
-            <div class="flex items-center justify-between">
-              <span class="text-2xl sm:text-3xl font-extrabold text-purple-400 font-mono-code">AWS</span>
-              <div class="w-8 h-8 rounded-lg bg-purple-500/10 text-purple-400 flex items-center justify-center">
-                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 00-9.78 2.096A4.001 4.001 0 003 15z"></path>
-                </svg>
-              </div>
-            </div>
-            <p class="mt-2 text-xs sm:text-sm font-semibold text-gray-200">Infraestrutura em Nuvem</p>
-            <p class="text-[11px] text-gray-400 mt-0.5">EC2, S3, RDS, IAM, VPC &amp; Linux</p>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- ========================================================================
-         SEÇÃO: EXPERIÊNCIA PROFISSIONAL & CASOS DE IMPACTO (TIMELINE)
-         ======================================================================== -->
-    <section id="experiencia" class="py-16 md:py-24 px-4 sm:px-6 lg:px-8 border-t border-gray-800/80 bg-[#080D1A]/50">
-      <div class="max-w-7xl mx-auto">
+      <!-- ====================================================================
+           2. HERO SECTION (APRESENTAÇÃO DIRETA)
+           ==================================================================== -->
+      <section id="sobre" class="pb-16 border-b border-white/[0.08]">
         
-        <!-- Section Header -->
-        <div class="text-center max-w-3xl mx-auto mb-16">
-          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-950/70 border border-sky-800/60 text-sky-400 text-xs font-mono-code uppercase tracking-wider">
-            <span>Trajetória e Atuação Técnica</span>
-          </div>
-          <h2 class="mt-3 text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
-            Experiência Profissional &amp; Casos de Impacto
-          </h2>
-          <p class="mt-3 text-sm sm:text-base text-gray-400">
-            Sistemas governamentais e corporativos de missão crítica, com ênfase em qualidade de software, integração de pagamentos e automação cloud.
-          </p>
+        <!-- Status Indicator -->
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-950/40 border border-emerald-500/20 text-emerald-400 text-xs font-medium mb-6">
+          <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+          <span>Aracaju, SE – Brasil | Disponível para Contratação</span>
         </div>
 
-        <!-- Experience Timeline -->
-        <div class="relative border-l-2 border-sky-500/30 ml-4 sm:ml-8 md:ml-12 pl-6 sm:pl-10 space-y-14">
+        <!-- Nome e Título -->
+        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white tracking-tight leading-tight">
+          Matheus Araujo Pereira
+        </h1>
+        <p class="mt-2 text-lg sm:text-xl font-medium text-sky-400">
+          Cloud DevOps Engineer | Java • AWS • Linux
+        </p>
+
+        <!-- Resumo Profissional (Texto fiel do PDF) -->
+        <p class="mt-6 text-sm sm:text-base text-gray-300 leading-relaxed text-justify sm:text-left">
+          Engenheiro Cloud DevOps com sólida bagagem em desenvolvimento backend no ecossistema Java (Spring Boot) e foco em automação de infraestrutura em nuvem (AWS) e administração de sistemas Linux (Debian e Red Hat). Experiência na criação e sustentação de pipelines de CI/CD (Jenkins, Docker), integração de meios de pagamento em larga escala (PIX) e arquiteturas orientadas a eventos com Apache Kafka e RabbitMQ. Histórico em sistemas corporativos e governamentais de alta criticidade, atuando com políticas rigorosas de qualidade de código (100% de cobertura com JUnit, TestNG e JaCoCo) e governança em nuvem (AWS IAM). Mestrando em Ciência da Computação e graduando em Engenharia de Computação pela UFS.
+        </p>
+
+        <!-- Botões de Ação Imediata -->
+        <div class="mt-8 flex flex-wrap items-center gap-3">
           
-          <!-- ==================== ITEM 1: SEMFAZ ==================== -->
-          <div class="relative group">
-            <!-- Timeline Pin -->
-            <div class="absolute -left-[35px] sm:-left-[51px] top-1.5 w-6 h-6 rounded-full bg-[#0A0F1D] border-2 border-sky-400 flex items-center justify-center shadow-md shadow-sky-500/30 group-hover:scale-110 transition-transform">
-              <span class="w-2 h-2 rounded-full bg-sky-400"></span>
-            </div>
+          <!-- Download PDF -->
+          <a href="/curriculo_matheus_araujo_pereira_java_aws_linux.pdf" 
+             download="curriculo_matheus_araujo_pereira_java_aws_linux.pdf"
+             class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-sky-500 hover:bg-sky-400 text-slate-950 font-semibold text-sm transition-colors shadow-sm">
+            <svg class="w-4 h-4 text-slate-950" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+            </svg>
+            <span>Baixar Currículo em PDF</span>
+          </a>
 
-            <!-- Card Content -->
-            <div class="glass-panel glass-panel-hover p-6 sm:p-8 rounded-2xl border border-gray-800">
-              
-              <!-- Title & Header Info -->
-              <div class="flex flex-col md:flex-row md:items-center justify-between gap-3 pb-5 border-b border-gray-800">
-                <div>
-                  <div class="flex flex-wrap items-center gap-2.5">
-                    <h3 class="text-xl sm:text-2xl font-bold text-white">
-                      SEMFAZ — Secretaria Municipal da Fazenda de Aracaju
-                    </h3>
-                    <span class="px-2.5 py-0.5 rounded-full text-xs font-mono-code font-semibold bg-emerald-950/80 text-emerald-400 border border-emerald-800/60">
-                      Atual
-                    </span>
-                  </div>
-                  <div class="mt-1 text-sm sm:text-base font-semibold text-sky-400">
-                    Engenheiro Backend &amp; DevOps <span class="text-gray-400 font-normal">(Júnior a Pleno)</span>
-                  </div>
-                </div>
+          <!-- LinkedIn -->
+          <a href="https://linkedin.com/in/matheus-araujo-pereira" 
+             target="_blank" 
+             rel="noopener noreferrer"
+             class="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg bg-white/[0.04] hover:bg-white/[0.08] text-gray-200 border border-white/10 text-sm font-medium transition-colors">
+            <svg class="w-4 h-4 text-sky-400" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+            </svg>
+            <span>LinkedIn</span>
+          </a>
 
-                <div class="flex flex-col sm:flex-row md:items-end gap-1 sm:gap-4 text-xs font-mono-code text-gray-400">
-                  <div class="flex items-center gap-1.5">
-                    <svg class="w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
-                    </svg>
-                    <span>2023 – Atual</span>
-                  </div>
-                  <div class="flex items-center gap-1.5">
-                    <svg class="w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                    </svg>
-                    <span>Aracaju, SE</span>
-                  </div>
-                </div>
-              </div>
+          <!-- WhatsApp -->
+          <a href="https://wa.me/5579999984882" 
+             target="_blank" 
+             rel="noopener noreferrer"
+             class="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg bg-white/[0.04] hover:bg-white/[0.08] text-gray-200 border border-white/10 text-sm font-medium transition-colors">
+            <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+            </svg>
+            <span>WhatsApp: (79) 99998-4882</span>
+          </a>
 
-              <!-- Tech Stack Badges -->
-              <div class="mt-4 flex flex-wrap items-center gap-1.5">
-                <span class="text-xs text-gray-400 font-mono-code mr-1">Stack:</span>
-                <span class="px-2 py-0.5 rounded bg-sky-950/50 text-sky-300 border border-sky-800/40 text-xs font-mono-code">Java 8/17/21</span>
-                <span class="px-2 py-0.5 rounded bg-sky-950/50 text-sky-300 border border-sky-800/40 text-xs font-mono-code">Spring Boot</span>
-                <span class="px-2 py-0.5 rounded bg-sky-950/50 text-sky-300 border border-sky-800/40 text-xs font-mono-code">Jenkins</span>
-                <span class="px-2 py-0.5 rounded bg-sky-950/50 text-sky-300 border border-sky-800/40 text-xs font-mono-code">JaCoCo</span>
-                <span class="px-2 py-0.5 rounded bg-sky-950/50 text-sky-300 border border-sky-800/40 text-xs font-mono-code">Docker</span>
-                <span class="px-2 py-0.5 rounded bg-sky-950/50 text-sky-300 border border-sky-800/40 text-xs font-mono-code">Linux (WSL2)</span>
-                <span class="px-2 py-0.5 rounded bg-sky-950/50 text-sky-300 border border-sky-800/40 text-xs font-mono-code">JUnit 5</span>
-                <span class="px-2 py-0.5 rounded bg-sky-950/50 text-sky-300 border border-sky-800/40 text-xs font-mono-code">TestNG</span>
-                <span class="px-2 py-0.5 rounded bg-sky-950/50 text-sky-300 border border-sky-800/40 text-xs font-mono-code">Oracle DB</span>
-                <span class="px-2 py-0.5 rounded bg-sky-950/50 text-sky-300 border border-sky-800/40 text-xs font-mono-code">PostgreSQL</span>
-                <span class="px-2 py-0.5 rounded bg-sky-950/50 text-sky-300 border border-sky-800/40 text-xs font-mono-code">MySQL</span>
-                <span class="px-2 py-0.5 rounded bg-sky-950/50 text-sky-300 border border-sky-800/40 text-xs font-mono-code">JasperReports</span>
-                <span class="px-2 py-0.5 rounded bg-sky-950/50 text-sky-300 border border-sky-800/40 text-xs font-mono-code">Git</span>
-              </div>
-
-              <!-- Detailed Impact Points -->
-              <div class="mt-6 space-y-4 text-sm text-gray-300">
-                
-                <div class="flex items-start gap-3">
-                  <div class="mt-1 w-5 h-5 rounded bg-emerald-500/10 text-emerald-400 flex items-center justify-center shrink-0">
-                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path>
-                    </svg>
-                  </div>
-                  <div>
-                    <strong class="text-white font-semibold">Integração do PIX &amp; Meios de Pagamento:</strong> 
-                    Atuou no desenvolvimento e na sustentação da integração do PIX no sistema fazendário municipal, permitindo liquidação em tempo real para o recolhimento de tributos (<strong class="text-sky-300">IPTU, ISS, ITBI, certidões e taxas</strong>), trazendo agilidade e eliminando esperas bancárias tradicionais.
-                  </div>
-                </div>
-
-                <div class="flex items-start gap-3">
-                  <div class="mt-1 w-5 h-5 rounded bg-sky-500/10 text-sky-400 flex items-center justify-center shrink-0">
-                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path>
-                    </svg>
-                  </div>
-                  <div>
-                    <strong class="text-white font-semibold">Serviços de Larga Escala:</strong> 
-                    Sustentação de APIs e microsserviços de consulta tributária e integração ao <strong class="text-sky-300">REDESIM</strong>, garantindo estabilidade e integridade transacional para milhares de contribuintes e servidores públicos diariamente.
-                  </div>
-                </div>
-
-                <div class="flex items-start gap-3">
-                  <div class="mt-1 w-5 h-5 rounded bg-cyan-500/10 text-cyan-400 flex items-center justify-center shrink-0">
-                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path>
-                    </svg>
-                  </div>
-                  <div>
-                    <strong class="text-white font-semibold">Automação de CI/CD &amp; Quality Gates:</strong> 
-                    Configurou esteiras automatizadas no <strong class="text-sky-300">Jenkins integradas ao JaCoCo</strong>, estabelecendo barreiras automáticas (Quality Gates) que impedem o avanço de builds para homologação/produção que estejam fora dos padrões de conformidade.
-                  </div>
-                </div>
-
-                <div class="flex items-start gap-3">
-                  <div class="mt-1 w-5 h-5 rounded bg-emerald-500/10 text-emerald-400 flex items-center justify-center shrink-0">
-                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path>
-                    </svg>
-                  </div>
-                  <div>
-                    <strong class="text-white font-semibold">Cultura de Testes Automatizados (100% de Cobertura):</strong> 
-                    Implementou a política de qualidade com meta de 100% de cobertura de código em novas classes e métodos, desenvolvendo suítes completas com <strong class="text-emerald-400">JUnit 5 e TestNG</strong> para testes unitários e de integração.
-                  </div>
-                </div>
-
-                <div class="flex items-start gap-3">
-                  <div class="mt-1 w-5 h-5 rounded bg-purple-500/10 text-purple-400 flex items-center justify-center shrink-0">
-                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path>
-                    </svg>
-                  </div>
-                  <div>
-                    <strong class="text-white font-semibold">Modernização de Sistemas Legados:</strong> 
-                    Refatoração de bases legadas em Java 8 para <strong class="text-sky-300">Java 17 e 21</strong>, aplicando Clean Architecture, princípios SOLID e padronização corporativa de APIs REST.
-                  </div>
-                </div>
-
-                <div class="flex items-start gap-3">
-                  <div class="mt-1 w-5 h-5 rounded bg-blue-500/10 text-blue-400 flex items-center justify-center shrink-0">
-                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path>
-                    </svg>
-                  </div>
-                  <div>
-                    <strong class="text-white font-semibold">Bancos de Dados &amp; Relatórios Avançados:</strong> 
-                    Modelagem relacional e otimização de consultas em <strong class="text-white font-semibold">Oracle DB e PostgreSQL</strong>, além da geração e automação de relatórios fiscais avançados com <strong class="text-sky-300">JasperReports</strong>.
-                  </div>
-                </div>
-
-                <div class="flex items-start gap-3">
-                  <div class="mt-1 w-5 h-5 rounded bg-amber-500/10 text-amber-400 flex items-center justify-center shrink-0">
-                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path>
-                    </svg>
-                  </div>
-                  <div>
-                    <strong class="text-white font-semibold">Mentoria Técnica &amp; Code Review:</strong> 
-                    Condução de code reviews rigorosos com foco em segurança, manutenibilidade e performance, prestando mentoria técnica contínua a estagiários e desenvolvedores juniores.
-                  </div>
-                </div>
-
-              </div>
-
-            </div>
-          </div>
-
-          <!-- ==================== ITEM 2: SOFTEAM ==================== -->
-          <div class="relative group">
-            <!-- Timeline Pin -->
-            <div class="absolute -left-[35px] sm:-left-[51px] top-1.5 w-6 h-6 rounded-full bg-[#0A0F1D] border-2 border-emerald-400 flex items-center justify-center shadow-md shadow-emerald-500/30 group-hover:scale-110 transition-transform">
-              <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
-            </div>
-
-            <!-- Card Content -->
-            <div class="glass-panel glass-panel-hover p-6 sm:p-8 rounded-2xl border border-gray-800">
-              
-              <!-- Title & Header Info -->
-              <div class="flex flex-col md:flex-row md:items-center justify-between gap-3 pb-5 border-b border-gray-800">
-                <div>
-                  <div class="flex flex-wrap items-center gap-2.5">
-                    <h3 class="text-xl sm:text-2xl font-bold text-white">
-                      SOFTEAM
-                    </h3>
-                  </div>
-                  <div class="mt-1 text-sm sm:text-base font-semibold text-emerald-400">
-                    Cloud DevOps Engineer &amp; Engenheiro Backend
-                  </div>
-                </div>
-
-                <div class="flex flex-col sm:flex-row md:items-end gap-1 sm:gap-4 text-xs font-mono-code text-gray-400">
-                  <div class="flex items-center gap-1.5">
-                    <svg class="w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
-                    </svg>
-                    <span>2022 – 2025</span>
-                  </div>
-                  <div class="flex items-center gap-1.5">
-                    <svg class="w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                    </svg>
-                    <span>São Cristóvão, SE</span>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Tech Stack Badges -->
-              <div class="mt-4 flex flex-wrap items-center gap-1.5">
-                <span class="text-xs text-gray-400 font-mono-code mr-1">Stack:</span>
-                <span class="px-2 py-0.5 rounded bg-emerald-950/50 text-emerald-300 border border-emerald-800/40 text-xs font-mono-code">AWS (EC2, S3, RDS, IAM, VPC)</span>
-                <span class="px-2 py-0.5 rounded bg-emerald-950/50 text-emerald-300 border border-emerald-800/40 text-xs font-mono-code">Linux (Debian, Red Hat)</span>
-                <span class="px-2 py-0.5 rounded bg-emerald-950/50 text-emerald-300 border border-emerald-800/40 text-xs font-mono-code">Apache Kafka</span>
-                <span class="px-2 py-0.5 rounded bg-emerald-950/50 text-emerald-300 border border-emerald-800/40 text-xs font-mono-code">RabbitMQ</span>
-                <span class="px-2 py-0.5 rounded bg-emerald-950/50 text-emerald-300 border border-emerald-800/40 text-xs font-mono-code">Docker</span>
-                <span class="px-2 py-0.5 rounded bg-emerald-950/50 text-emerald-300 border border-emerald-800/40 text-xs font-mono-code">Java 17/21</span>
-                <span class="px-2 py-0.5 rounded bg-emerald-950/50 text-emerald-300 border border-emerald-800/40 text-xs font-mono-code">Spring Boot</span>
-                <span class="px-2 py-0.5 rounded bg-emerald-950/50 text-emerald-300 border border-emerald-800/40 text-xs font-mono-code">PostgreSQL</span>
-                <span class="px-2 py-0.5 rounded bg-emerald-950/50 text-emerald-300 border border-emerald-800/40 text-xs font-mono-code">MySQL</span>
-              </div>
-
-              <!-- Detailed Impact Points -->
-              <div class="mt-6 space-y-4 text-sm text-gray-300">
-                
-                <div class="flex items-start gap-3">
-                  <div class="mt-1 w-5 h-5 rounded bg-sky-500/10 text-sky-400 flex items-center justify-center shrink-0">
-                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path>
-                    </svg>
-                  </div>
-                  <div>
-                    <strong class="text-white font-semibold">Infraestrutura em Nuvem (AWS):</strong> 
-                    Provisionamento e monitoramento de arquitetura corporativa utilizando instâncias <strong class="text-sky-300">Amazon EC2</strong>, buckets <strong class="text-sky-300">S3</strong> com políticas de ciclo de vida e bancos de dados relacionacionais gerenciados via <strong class="text-sky-300">Amazon RDS</strong>.
-                  </div>
-                </div>
-
-                <div class="flex items-start gap-3">
-                  <div class="mt-1 w-5 h-5 rounded bg-emerald-500/10 text-emerald-400 flex items-center justify-center shrink-0">
-                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path>
-                    </svg>
-                  </div>
-                  <div>
-                    <strong class="text-white font-semibold">Governança &amp; Segurança (AWS IAM):</strong> 
-                    Estruturação de políticas de segurança baseadas no princípio do menor privilégio, configurando <strong class="text-emerald-400">IAM Roles</strong> para serviços e instâncias, além de gerenciamento seguro de credenciais e permissões granuladas.
-                  </div>
-                </div>
-
-                <div class="flex items-start gap-3">
-                  <div class="mt-1 w-5 h-5 rounded bg-cyan-500/10 text-cyan-400 flex items-center justify-center shrink-0">
-                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path>
-                    </svg>
-                  </div>
-                  <div>
-                    <strong class="text-white font-semibold">Mensageria &amp; Sistemas Distribuídos:</strong> 
-                    Implementação de mensageria assíncrona com <strong class="text-cyan-300">RabbitMQ</strong> para notificações transacionais e <strong class="text-cyan-300">Apache Kafka</strong> para processamento de eventos distribuídos de alta vazão e resiliência.
-                  </div>
-                </div>
-
-                <div class="flex items-start gap-3">
-                  <div class="mt-1 w-5 h-5 rounded bg-amber-500/10 text-amber-400 flex items-center justify-center shrink-0">
-                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path>
-                    </svg>
-                  </div>
-                  <div>
-                    <strong class="text-white font-semibold">Administração de Servidores Linux:</strong> 
-                    Diagnóstico de sistemas, hardening e segurança de rede, e scripts <strong class="text-amber-300 font-mono-code">Bash</strong> para automação de rotinas em servidores Linux (<strong class="text-white">Debian e Red Hat / RHEL</strong>) e ambientes Windows.
-                  </div>
-                </div>
-
-                <div class="flex items-start gap-3">
-                  <div class="mt-1 w-5 h-5 rounded bg-purple-500/10 text-purple-400 flex items-center justify-center shrink-0">
-                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path>
-                    </svg>
-                  </div>
-                  <div>
-                    <strong class="text-white font-semibold">Capacitação Técnica (20+ Membros):</strong> 
-                    Concepção curricular e ministração de treinamento intensivo em <strong class="text-white">Java Backend</strong> e boas práticas de desenvolvimento de software para mais de 20 membros da empresa júnior.
-                  </div>
-                </div>
-
-                <div class="flex items-start gap-3">
-                  <div class="mt-1 w-5 h-5 rounded bg-blue-500/10 text-blue-400 flex items-center justify-center shrink-0">
-                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path>
-                    </svg>
-                  </div>
-                  <div>
-                    <strong class="text-white font-semibold">Sustentação de Aplicações Acadêmicas &amp; Editoriais:</strong> 
-                    Desenvolvimento e manutenção de backends escaláveis para plataformas de gestão editorial e portais acadêmicos voltados à <strong class="text-white font-semibold">Universidade Federal de Sergipe (UFS)</strong>.
-                  </div>
-                </div>
-
-              </div>
-
-            </div>
-          </div>
+          <!-- Email -->
+          <a href="mailto:matharaupere@gmail.com" 
+             class="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg bg-white/[0.04] hover:bg-white/[0.08] text-gray-200 border border-white/10 text-sm font-medium transition-colors">
+            <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+            </svg>
+            <span>matharaupere@gmail.com</span>
+          </a>
 
         </div>
 
-      </div>
-    </section>
+      </section>
 
-    <!-- ========================================================================
-         SEÇÃO: CLOUD & DEVOPS STACK (COMPETÊNCIAS CATEGORIZADAS)
-         ======================================================================== -->
-    <section id="habilidades" class="py-16 md:py-24 px-4 sm:px-6 lg:px-8 border-t border-gray-800/80">
-      <div class="max-w-7xl mx-auto">
+      <!-- ====================================================================
+           3. EXPERIÊNCIA PROFISSIONAL (LINHA DO TEMPO CORPORATIVA LIMPA)
+           ==================================================================== -->
+      <section id="experiencia" class="py-16 border-b border-white/[0.08]">
         
-        <!-- Section Header -->
-        <div class="text-center max-w-3xl mx-auto mb-12">
-          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-950/70 border border-cyan-800/60 text-cyan-400 text-xs font-mono-code uppercase tracking-wider">
-            <span>Matriz Técnica de Especialidades</span>
-          </div>
-          <h2 class="mt-3 text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
-            Cloud &amp; DevOps Stack
-          </h2>
-          <p class="mt-3 text-sm sm:text-base text-gray-400">
-            Conjunto consolidado de tecnologias aplicadas na construção de arquiteturas resilientes, seguras e automatizadas.
-          </p>
-        </div>
+        <h2 class="text-xs font-semibold uppercase tracking-wider text-sky-400 mb-8">
+          Experiência Profissional
+        </h2>
 
-        <!-- Filter Tab Buttons -->
-        <div class="flex flex-wrap items-center justify-center gap-2 mb-10">
-          <button type="button" data-filter="all" class="skill-filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold border transition-all bg-sky-500/20 text-sky-300 border-sky-500/50 cursor-pointer">
-            Todos
-          </button>
-          <button type="button" data-filter="cloud" class="skill-filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold border transition-all bg-gray-800/60 text-gray-400 border-gray-700/50 hover:text-white cursor-pointer">
-            Cloud (AWS)
-          </button>
-          <button type="button" data-filter="devops" class="skill-filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold border transition-all bg-gray-800/60 text-gray-400 border-gray-700/50 hover:text-white cursor-pointer">
-            DevOps &amp; CI/CD
-          </button>
-          <button type="button" data-filter="systems" class="skill-filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold border transition-all bg-gray-800/60 text-gray-400 border-gray-700/50 hover:text-white cursor-pointer">
-            Linux &amp; Scripting
-          </button>
-          <button type="button" data-filter="backend" class="skill-filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold border transition-all bg-gray-800/60 text-gray-400 border-gray-700/50 hover:text-white cursor-pointer">
-            Backend &amp; Mensageria
-          </button>
-          <button type="button" data-filter="quality" class="skill-filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold border transition-all bg-gray-800/60 text-gray-400 border-gray-700/50 hover:text-white cursor-pointer">
-            Bancos &amp; Qualidade
-          </button>
-        </div>
-
-        <!-- Cards Grid -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-
-          <!-- Card 1: Cloud AWS -->
-          <div class="skill-card glass-panel glass-panel-hover p-6 rounded-2xl border border-gray-800 flex flex-col justify-between" data-category="cloud">
-            <div>
-              <div class="flex items-center justify-between mb-4">
-                <div class="w-10 h-10 rounded-xl bg-sky-500/10 text-sky-400 flex items-center justify-center">
-                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 00-9.78 2.096A4.001 4.001 0 003 15z"></path>
-                  </svg>
-                </div>
-                <span class="text-xs font-mono-code px-2 py-0.5 rounded bg-sky-950/80 text-sky-300 border border-sky-800/60 font-semibold">
-                  AWS Cloud
-                </span>
-              </div>
-              <h3 class="text-lg font-bold text-white mb-2">Cloud Computing (AWS)</h3>
-              <p class="text-xs text-gray-400 mb-4 leading-relaxed">
-                Arquitetura segura e escalável orientada ao Well-Architected Framework, com segregação de rede e governança.
-              </p>
-            </div>
-            <div class="flex flex-wrap gap-1.5 pt-3 border-t border-gray-800/60">
-              <span class="px-2 py-1 rounded bg-[#1C2541] text-sky-200 text-xs font-mono-code">Amazon EC2</span>
-              <span class="px-2 py-1 rounded bg-[#1C2541] text-sky-200 text-xs font-mono-code">Amazon S3</span>
-              <span class="px-2 py-1 rounded bg-[#1C2541] text-sky-200 text-xs font-mono-code">Amazon RDS</span>
-              <span class="px-2 py-1 rounded bg-[#1C2541] text-sky-200 text-xs font-mono-code">IAM (Roles/Policies)</span>
-              <span class="px-2 py-1 rounded bg-[#1C2541] text-sky-200 text-xs font-mono-code">Menor Privilégio</span>
-              <span class="px-2 py-1 rounded bg-[#1C2541] text-sky-200 text-xs font-mono-code">Amazon VPC</span>
-              <span class="px-2 py-1 rounded bg-[#1C2541] text-sky-200 text-xs font-mono-code">CloudWatch</span>
-            </div>
-          </div>
-
-          <!-- Card 2: DevOps & CI/CD -->
-          <div class="skill-card glass-panel glass-panel-hover p-6 rounded-2xl border border-gray-800 flex flex-col justify-between" data-category="devops">
-            <div>
-              <div class="flex items-center justify-between mb-4">
-                <div class="w-10 h-10 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center">
-                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
-                  </svg>
-                </div>
-                <span class="text-xs font-mono-code px-2 py-0.5 rounded bg-emerald-950/80 text-emerald-300 border border-emerald-800/60 font-semibold">
-                  CI/CD &amp; Containers
-                </span>
-              </div>
-              <h3 class="text-lg font-bold text-white mb-2">DevOps &amp; CI/CD</h3>
-              <p class="text-xs text-gray-400 mb-4 leading-relaxed">
-                Esteiras automatizadas de integração e entrega contínua com barreiras de qualidade e builds multi-estágio.
-              </p>
-            </div>
-            <div class="flex flex-wrap gap-1.5 pt-3 border-t border-gray-800/60">
-              <span class="px-2 py-1 rounded bg-[#1C2541] text-emerald-200 text-xs font-mono-code">Docker</span>
-              <span class="px-2 py-1 rounded bg-[#1C2541] text-emerald-200 text-xs font-mono-code">Docker Compose</span>
-              <span class="px-2 py-1 rounded bg-[#1C2541] text-emerald-200 text-xs font-mono-code">Multi-Stage Builds</span>
-              <span class="px-2 py-1 rounded bg-[#1C2541] text-emerald-200 text-xs font-mono-code">Jenkins Pipelines</span>
-              <span class="px-2 py-1 rounded bg-[#1C2541] text-emerald-200 text-xs font-mono-code">Git &amp; GitHub</span>
-              <span class="px-2 py-1 rounded bg-[#1C2541] text-emerald-200 text-xs font-mono-code">GitLab</span>
-            </div>
-          </div>
-
-          <!-- Card 3: Linux & Scripting -->
-          <div class="skill-card glass-panel glass-panel-hover p-6 rounded-2xl border border-gray-800 flex flex-col justify-between" data-category="systems">
-            <div>
-              <div class="flex items-center justify-between mb-4">
-                <div class="w-10 h-10 rounded-xl bg-amber-500/10 text-amber-400 flex items-center justify-center">
-                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
-                  </svg>
-                </div>
-                <span class="text-xs font-mono-code px-2 py-0.5 rounded bg-amber-950/80 text-amber-300 border border-amber-800/60 font-semibold">
-                  Enterprise OS
-                </span>
-              </div>
-              <h3 class="text-lg font-bold text-white mb-2">Sistemas Operacionais &amp; Scripting</h3>
-              <p class="text-xs text-gray-400 mb-4 leading-relaxed">
-                Administração avançada de Linux corporativo, automação com Shell scripts, diagnóstico de rede e WSL2.
-              </p>
-            </div>
-            <div class="flex flex-wrap gap-1.5 pt-3 border-t border-gray-800/60">
-              <span class="px-2 py-1 rounded bg-[#1C2541] text-amber-200 text-xs font-mono-code">Debian GNU/Linux</span>
-              <span class="px-2 py-1 rounded bg-[#1C2541] text-amber-200 text-xs font-mono-code">Ubuntu Server</span>
-              <span class="px-2 py-1 rounded bg-[#1C2541] text-amber-200 text-xs font-mono-code">Red Hat (RHEL)</span>
-              <span class="px-2 py-1 rounded bg-[#1C2541] text-amber-200 text-xs font-mono-code">Shell Script (Bash)</span>
-              <span class="px-2 py-1 rounded bg-[#1C2541] text-amber-200 text-xs font-mono-code">WSL2</span>
-              <span class="px-2 py-1 rounded bg-[#1C2541] text-amber-200 text-xs font-mono-code">Windows Server</span>
-            </div>
-          </div>
-
-          <!-- Card 4: Backend & Linguagens -->
-          <div class="skill-card glass-panel glass-panel-hover p-6 rounded-2xl border border-gray-800 flex flex-col justify-between" data-category="backend">
-            <div>
-              <div class="flex items-center justify-between mb-4">
-                <div class="w-10 h-10 rounded-xl bg-purple-500/10 text-purple-400 flex items-center justify-center">
-                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
-                  </svg>
-                </div>
-                <span class="text-xs font-mono-code px-2 py-0.5 rounded bg-purple-950/80 text-purple-300 border border-purple-800/60 font-semibold">
-                  Java Ecosystem
-                </span>
-              </div>
-              <h3 class="text-lg font-bold text-white mb-2">Backend &amp; Linguagens</h3>
-              <p class="text-xs text-gray-400 mb-4 leading-relaxed">
-                Desenvolvimento enterprise moderno em Java, arquitetura limpa, microsserviços Spring Boot e Python.
-              </p>
-            </div>
-            <div class="flex flex-wrap gap-1.5 pt-3 border-t border-gray-800/60">
-              <span class="px-2 py-1 rounded bg-[#1C2541] text-purple-200 text-xs font-mono-code">Java 8, 17 e 21</span>
-              <span class="px-2 py-1 rounded bg-[#1C2541] text-purple-200 text-xs font-mono-code">Spring Boot (2 &amp; 3)</span>
-              <span class="px-2 py-1 rounded bg-[#1C2541] text-purple-200 text-xs font-mono-code">Spring Data JPA</span>
-              <span class="px-2 py-1 rounded bg-[#1C2541] text-purple-200 text-xs font-mono-code">Spring Security</span>
-              <span class="px-2 py-1 rounded bg-[#1C2541] text-purple-200 text-xs font-mono-code">Maven &amp; Gradle</span>
-              <span class="px-2 py-1 rounded bg-[#1C2541] text-purple-200 text-xs font-mono-code">Python</span>
-            </div>
-          </div>
-
-          <!-- Card 5: Mensageria & Integração -->
-          <div class="skill-card glass-panel glass-panel-hover p-6 rounded-2xl border border-gray-800 flex flex-col justify-between" data-category="backend">
-            <div>
-              <div class="flex items-center justify-between mb-4">
-                <div class="w-10 h-10 rounded-xl bg-cyan-500/10 text-cyan-400 flex items-center justify-center">
-                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
-                  </svg>
-                </div>
-                <span class="text-xs font-mono-code px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-800/60 font-semibold">
-                  Event-Driven
-                </span>
-              </div>
-              <h3 class="text-lg font-bold text-white mb-2">Mensageria &amp; Eventos</h3>
-              <p class="text-xs text-gray-400 mb-4 leading-relaxed">
-                Arquitetura Orientada a Eventos (EDA), comunicação assíncrona desacoplada e contratos OpenAPI.
-              </p>
-            </div>
-            <div class="flex flex-wrap gap-1.5 pt-3 border-t border-gray-800/60">
-              <span class="px-2 py-1 rounded bg-[#1C2541] text-cyan-200 text-xs font-mono-code">Apache Kafka</span>
-              <span class="px-2 py-1 rounded bg-[#1C2541] text-cyan-200 text-xs font-mono-code">RabbitMQ</span>
-              <span class="px-2 py-1 rounded bg-[#1C2541] text-cyan-200 text-xs font-mono-code">Event-Driven (EDA)</span>
-              <span class="px-2 py-1 rounded bg-[#1C2541] text-cyan-200 text-xs font-mono-code">APIs RESTful</span>
-              <span class="px-2 py-1 rounded bg-[#1C2541] text-cyan-200 text-xs font-mono-code">OpenAPI / Swagger</span>
-            </div>
-          </div>
-
-          <!-- Card 6: Bancos & Qualidade -->
-          <div class="skill-card glass-panel glass-panel-hover p-6 rounded-2xl border border-gray-800 flex flex-col justify-between" data-category="quality">
-            <div>
-              <div class="flex items-center justify-between mb-4">
-                <div class="w-10 h-10 rounded-xl bg-blue-500/10 text-blue-400 flex items-center justify-center">
-                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"></path>
-                  </svg>
-                </div>
-                <span class="text-xs font-mono-code px-2 py-0.5 rounded bg-blue-950/80 text-blue-300 border border-blue-800/60 font-semibold">
-                  Data &amp; Quality
-                </span>
-              </div>
-              <h3 class="text-lg font-bold text-white mb-2">Bancos de Dados &amp; Qualidade</h3>
-              <p class="text-xs text-gray-400 mb-4 leading-relaxed">
-                Modelagem relacional corporativa, tuning de consultas, relatórios fiscais e 100% de cobertura de testes.
-              </p>
-            </div>
-            <div class="flex flex-wrap gap-1.5 pt-3 border-t border-gray-800/60">
-              <span class="px-2 py-1 rounded bg-[#1C2541] text-blue-200 text-xs font-mono-code">PostgreSQL</span>
-              <span class="px-2 py-1 rounded bg-[#1C2541] text-blue-200 text-xs font-mono-code">Oracle Database</span>
-              <span class="px-2 py-1 rounded bg-[#1C2541] text-blue-200 text-xs font-mono-code">MySQL</span>
-              <span class="px-2 py-1 rounded bg-[#1C2541] text-blue-200 text-xs font-mono-code">JasperReports</span>
-              <span class="px-2 py-1 rounded bg-[#1C2541] text-blue-200 text-xs font-mono-code">JUnit 5 &amp; TestNG</span>
-              <span class="px-2 py-1 rounded bg-[#1C2541] text-blue-200 text-xs font-mono-code">JaCoCo Quality Gates</span>
-              <span class="px-2 py-1 rounded bg-[#1C2541] text-blue-200 text-xs font-mono-code">SOLID &amp; Clean Arch</span>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-
-    <!-- ========================================================================
-         SEÇÃO: FORMAÇÃO ACADÊMICA & CERTIFICAÇÕES
-         ======================================================================== -->
-    <section id="formacao" class="py-16 md:py-24 px-4 sm:px-6 lg:px-8 border-t border-gray-800/80 bg-[#080D1A]/50">
-      <div class="max-w-7xl mx-auto">
-        
-        <!-- Section Header -->
-        <div class="text-center max-w-3xl mx-auto mb-16">
-          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-purple-950/70 border border-purple-800/60 text-purple-400 text-xs font-mono-code uppercase tracking-wider">
-            <span>Educação e Especialização</span>
-          </div>
-          <h2 class="mt-3 text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
-            Formação Acadêmica &amp; Certificações
-          </h2>
-          <p class="mt-3 text-sm sm:text-base text-gray-400">
-            Sólida fundamentação científica pela Universidade Federal de Sergipe combinada com certificações industriais de Cloud e Linux.
-          </p>
-        </div>
-
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+        <div class="space-y-12">
           
-          <!-- Left Column: Higher Education (7 cols) -->
-          <div class="lg:col-span-7 space-y-6">
-            <h3 class="text-xl font-bold text-white flex items-center gap-2">
-              <svg class="w-5 h-5 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
-                <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"></path>
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"></path>
-              </svg>
-              <span>Formação Acadêmica</span>
+          <!-- SEMFAZ -->
+          <div class="executive-card p-6 sm:p-8 rounded-xl">
+            <div class="flex flex-col sm:flex-row sm:items-baseline justify-between gap-2 border-b border-white/[0.08] pb-4">
+              <div>
+                <h3 class="text-xl font-bold text-white tracking-tight">
+                  SEMFAZ — Secretaria Municipal da Fazenda de Aracaju
+                </h3>
+                <div class="text-sm font-medium text-sky-400 mt-0.5">
+                  Engenheiro Backend &amp; DevOps (Júnior a Pleno)
+                </div>
+              </div>
+              <div class="text-xs text-gray-400 whitespace-nowrap">
+                2023 – Atual | Aracaju, SE
+              </div>
+            </div>
+
+            <!-- Tecnologias -->
+            <div class="mt-4 flex flex-wrap gap-1.5">
+              <span class="tech-tag">Java 8/17/21</span>
+              <span class="tech-tag">Spring Boot</span>
+              <span class="tech-tag">Jenkins</span>
+              <span class="tech-tag">JaCoCo</span>
+              <span class="tech-tag">Docker</span>
+              <span class="tech-tag">Linux (WSL2)</span>
+              <span class="tech-tag">JUnit 5</span>
+              <span class="tech-tag">TestNG</span>
+              <span class="tech-tag">Oracle DB</span>
+              <span class="tech-tag">PostgreSQL</span>
+              <span class="tech-tag">MySQL</span>
+              <span class="tech-tag">JasperReports</span>
+              <span class="tech-tag">Git</span>
+            </div>
+
+            <!-- 7 Tópicos de Realizações (Fieis ao PDF) -->
+            <ul class="mt-6 space-y-3.5 text-sm text-gray-300">
+              <li class="flex items-start gap-2.5">
+                <span class="text-sky-400 font-bold leading-relaxed">•</span>
+                <span><strong class="text-white font-medium">Integração do PIX &amp; Meios de Pagamento:</strong> Atuou no desenvolvimento e na sustentação da integração do PIX no sistema fazendário municipal, permitindo liquidação em tempo real para o recolhimento de tributos (IPTU, ISS, ITBI, certidões e taxas).</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <span class="text-sky-400 font-bold leading-relaxed">•</span>
+                <span><strong class="text-white font-medium">Serviços de Larga Escala:</strong> Sustentação de APIs e microsserviços de consulta tributária e integração ao REDESIM, garantindo estabilidade e integridade transacional para milhares de contribuintes e servidores.</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <span class="text-sky-400 font-bold leading-relaxed">•</span>
+                <span><strong class="text-white font-medium">Automação de CI/CD &amp; Quality Gates:</strong> Configurou esteiras automatizadas no Jenkins integradas ao JaCoCo, estabelecendo barreiras automáticas que impedem o avanço de builds fora dos padrões de conformidade.</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <span class="text-sky-400 font-bold leading-relaxed">•</span>
+                <span><strong class="text-white font-medium">Cultura de Testes Automatizados:</strong> Implementou a política de qualidade com meta de 100% de cobertura de código em novas classes e métodos, desenvolvendo suítes completas com JUnit 5 e TestNG.</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <span class="text-sky-400 font-bold leading-relaxed">•</span>
+                <span><strong class="text-white font-medium">Modernização de Sistemas Legados:</strong> Refatoração de bases legadas em Java 8 para Java 17 e 21, aplicando Clean Architecture, princípios SOLID e padronização de APIs REST.</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <span class="text-sky-400 font-bold leading-relaxed">•</span>
+                <span><strong class="text-white font-medium">Bancos de Dados &amp; Relatórios:</strong> Modelagem relacional e otimização de consultas em Oracle DB e PostgreSQL, além da geração de relatórios fiscais avançados com JasperReports.</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <span class="text-sky-400 font-bold leading-relaxed">•</span>
+                <span><strong class="text-white font-medium">Mentoria Técnica:</strong> Condução de code reviews com foco em segurança e performance, prestando mentoria a estagiários e desenvolvedores juniores.</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- SOFTEAM -->
+          <div class="executive-card p-6 sm:p-8 rounded-xl">
+            <div class="flex flex-col sm:flex-row sm:items-baseline justify-between gap-2 border-b border-white/[0.08] pb-4">
+              <div>
+                <h3 class="text-xl font-bold text-white tracking-tight">
+                  SOFTEAM
+                </h3>
+                <div class="text-sm font-medium text-sky-400 mt-0.5">
+                  Cloud DevOps Engineer &amp; Engenheiro Backend
+                </div>
+              </div>
+              <div class="text-xs text-gray-400 whitespace-nowrap">
+                2022 – 2025 | São Cristóvão, SE
+              </div>
+            </div>
+
+            <!-- Tecnologias -->
+            <div class="mt-4 flex flex-wrap gap-1.5">
+              <span class="tech-tag">AWS (EC2, S3, RDS, IAM, VPC)</span>
+              <span class="tech-tag">Linux (Debian, Red Hat)</span>
+              <span class="tech-tag">Apache Kafka</span>
+              <span class="tech-tag">RabbitMQ</span>
+              <span class="tech-tag">Docker</span>
+              <span class="tech-tag">Java 17/21</span>
+              <span class="tech-tag">Spring Boot</span>
+              <span class="tech-tag">PostgreSQL</span>
+              <span class="tech-tag">MySQL</span>
+            </div>
+
+            <!-- 6 Tópicos de Realizações (Fieis ao PDF) -->
+            <ul class="mt-6 space-y-3.5 text-sm text-gray-300">
+              <li class="flex items-start gap-2.5">
+                <span class="text-sky-400 font-bold leading-relaxed">•</span>
+                <span><strong class="text-white font-medium">Infraestrutura em Nuvem (AWS):</strong> Provisionamento e monitoramento de arquitetura corporativa utilizando instâncias EC2, buckets S3 e bancos de dados relacionacionais gerenciados via Amazon RDS.</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <span class="text-sky-400 font-bold leading-relaxed">•</span>
+                <span><strong class="text-white font-medium">Governança &amp; Segurança (IAM):</strong> Estruturação de políticas de segurança baseadas no princípio do menor privilégio, configurando IAM Roles para serviços e instâncias, além de gerenciamento de credenciais.</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <span class="text-sky-400 font-bold leading-relaxed">•</span>
+                <span><strong class="text-white font-medium">Mensageria &amp; Sistemas Distribuídos:</strong> Implementação de mensageria assíncrona com RabbitMQ para notificações transacionais e Apache Kafka para processamento de eventos distribuídos em escala.</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <span class="text-sky-400 font-bold leading-relaxed">•</span>
+                <span><strong class="text-white font-medium">Administração de Servidores Linux:</strong> Diagnóstico, segurança de rede e scripts Bash para automação de rotinas em servidores Linux (Debian e Red Hat) e Windows.</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <span class="text-sky-400 font-bold leading-relaxed">•</span>
+                <span><strong class="text-white font-medium">Capacitação Técnica:</strong> Concepção curricular e ministração de treinamento intensivo em Java Backend e boas práticas de desenvolvimento para mais de 20 membros da empresa júnior.</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <span class="text-sky-400 font-bold leading-relaxed">•</span>
+                <span><strong class="text-white font-medium">Sustentação de Aplicações:</strong> Desenvolvimento de backends escaláveis para plataformas de gestão editorial e portais acadêmicos para a Universidade Federal de Sergipe.</span>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- ====================================================================
+           4. COMPETÊNCIAS TÉCNICAS (GRIDS ORGANIZADOS POR CATEGORIAS)
+           ==================================================================== -->
+      <section id="habilidades" class="py-16 border-b border-white/[0.08]">
+        
+        <h2 class="text-xs font-semibold uppercase tracking-wider text-sky-400 mb-8">
+          Competências Técnicas
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+          
+          <!-- Cloud Computing (AWS) -->
+          <div class="executive-card p-5 rounded-xl">
+            <h3 class="text-base font-semibold text-white mb-3 flex items-center justify-between">
+              <span>Cloud Computing (AWS)</span>
             </h3>
-
-            <!-- Mestrado -->
-            <div class="glass-panel glass-panel-hover p-6 rounded-2xl border border-gray-800">
-              <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-3 border-b border-gray-800/80">
-                <div>
-                  <h4 class="text-lg font-bold text-white">Mestrado em Ciência da Computação (M.Sc.)</h4>
-                  <div class="text-sm font-semibold text-purple-400">Universidade Federal de Sergipe (UFS)</div>
-                </div>
-                <div class="text-xs font-mono-code text-gray-400 shrink-0">
-                  Jan 2026 – Atual
-                </div>
-              </div>
-              <p class="mt-4 text-xs sm:text-sm text-gray-300 leading-relaxed">
-                Linha de pesquisa voltada para <strong class="text-white font-medium">sistemas computacionais, sistemas distribuídos e engenharia de software de alto desempenho</strong>, explorando escalabilidade e resiliência em ambientes modernos de nuvem.
-              </p>
+            <div class="flex flex-wrap gap-1.5">
+              <span class="tech-tag">Amazon EC2</span>
+              <span class="tech-tag">Amazon S3</span>
+              <span class="tech-tag">Amazon RDS</span>
+              <span class="tech-tag">AWS IAM (Roles &amp; Policies)</span>
+              <span class="tech-tag">Menor Privilégio</span>
+              <span class="tech-tag">Amazon VPC</span>
+              <span class="tech-tag">CloudWatch</span>
             </div>
-
-            <!-- Bacharelado -->
-            <div class="glass-panel glass-panel-hover p-6 rounded-2xl border border-gray-800">
-              <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-3 border-b border-gray-800/80">
-                <div>
-                  <h4 class="text-lg font-bold text-white">Bacharelado em Engenharia de Computação (B.S.)</h4>
-                  <div class="text-sm font-semibold text-purple-400">Universidade Federal de Sergipe (UFS)</div>
-                </div>
-                <div class="text-xs font-mono-code text-gray-400 shrink-0">
-                  Jun 2022 – Atual
-                </div>
-              </div>
-              <p class="mt-4 text-xs sm:text-sm text-gray-300 leading-relaxed">
-                Ênfase aprofundada em <strong class="text-white font-medium">redes de computadores, arquitetura de sistemas, sistemas operacionais e sistemas distribuídos</strong>, provendo base sólida de hardware e software integrado.
-              </p>
-            </div>
-
-            <!-- Idiomas Card -->
-            <div class="glass-panel glass-panel-hover p-6 rounded-2xl border border-gray-800">
-              <h4 class="text-base font-bold text-white mb-3 flex items-center gap-2">
-                <svg class="w-4 h-4 text-sky-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"></path>
-                </svg>
-                <span>Proficiência em Idiomas</span>
-              </h4>
-              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div class="p-3.5 rounded-xl bg-[#0e1424] border border-gray-800">
-                  <div class="flex items-center justify-between">
-                    <span class="text-sm font-bold text-white">Português</span>
-                    <span class="text-xs font-mono-code text-emerald-400 font-semibold">Nativo</span>
-                  </div>
-                  <p class="text-xs text-gray-400 mt-1">Comunicação e escrita técnica nativa.</p>
-                </div>
-                <div class="p-3.5 rounded-xl bg-[#0e1424] border border-gray-800">
-                  <div class="flex items-center justify-between">
-                    <span class="text-sm font-bold text-white">Inglês</span>
-                    <span class="text-xs font-mono-code text-sky-400 font-semibold">Intermediário Alto (B1-B2)</span>
-                  </div>
-                  <p class="text-xs text-gray-400 mt-1">Leitura fluente de documentações técnicas, escrita de tickets/RFCs e acompanhamento ágil de squads.</p>
-                </div>
-              </div>
-            </div>
-
           </div>
 
-          <!-- Right Column: Certifications Track (5 cols) -->
-          <div class="lg:col-span-5 space-y-6">
-            <h3 class="text-xl font-bold text-white flex items-center gap-2">
-              <svg class="w-5 h-5 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
-              </svg>
-              <span>Trilha de Certificações</span>
+          <!-- DevOps & CI/CD -->
+          <div class="executive-card p-5 rounded-xl">
+            <h3 class="text-base font-semibold text-white mb-3">
+              DevOps &amp; CI/CD
             </h3>
-
-            <!-- Cert 1: AWS SAA-C03 -->
-            <div class="glass-panel glass-panel-hover p-6 rounded-2xl border border-gray-800">
-              <div class="flex items-start justify-between gap-3">
-                <div>
-                  <span class="px-2.5 py-0.5 rounded text-[11px] font-mono-code font-semibold bg-amber-950/80 text-amber-400 border border-amber-800/60">
-                    EM ANDAMENTO
-                  </span>
-                  <h4 class="mt-2 text-base font-bold text-white">
-                    AWS Certified Solutions Architect – Associate
-                  </h4>
-                  <div class="text-xs font-mono-code text-gray-400 mt-0.5">Código: SAA-C03</div>
-                </div>
-                <div class="w-10 h-10 rounded-xl bg-amber-500/10 text-amber-400 flex items-center justify-center shrink-0">
-                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
-                  </svg>
-                </div>
-              </div>
-              <p class="mt-3 text-xs text-gray-300 leading-relaxed">
-                Domínio em arquiteturas seguras, resilientes, de alta performance e otimizadas em custos na Amazon Web Services.
-              </p>
+            <div class="flex flex-wrap gap-1.5">
+              <span class="tech-tag">Docker</span>
+              <span class="tech-tag">Docker Compose</span>
+              <span class="tech-tag">Multi-Stage Builds</span>
+              <span class="tech-tag">Jenkins Pipelines</span>
+              <span class="tech-tag">Git</span>
+              <span class="tech-tag">GitHub</span>
+              <span class="tech-tag">GitLab</span>
             </div>
+          </div>
 
-            <!-- Cert 2: AWS CLF-C02 -->
-            <div class="glass-panel glass-panel-hover p-6 rounded-2xl border border-gray-800">
-              <div class="flex items-start justify-between gap-3">
-                <div>
-                  <span class="px-2.5 py-0.5 rounded text-[11px] font-mono-code font-semibold bg-amber-950/80 text-amber-400 border border-amber-800/60">
-                    EM ANDAMENTO
-                  </span>
-                  <h4 class="mt-2 text-base font-bold text-white">
-                    AWS Certified Cloud Practitioner
-                  </h4>
-                  <div class="text-xs font-mono-code text-gray-400 mt-0.5">Código: CLF-C02</div>
-                </div>
-                <div class="w-10 h-10 rounded-xl bg-amber-500/10 text-amber-400 flex items-center justify-center shrink-0">
-                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 00-9.78 2.096A4.001 4.001 0 003 15z"></path>
-                  </svg>
-                </div>
-              </div>
-              <p class="mt-3 text-xs text-gray-300 leading-relaxed">
-                Visão holística dos serviços principais da nuvem AWS, modelo de responsabilidade compartilhada, faturamento e conformidade.
-              </p>
+          <!-- Sistemas Operacionais & Scripting -->
+          <div class="executive-card p-5 rounded-xl">
+            <h3 class="text-base font-semibold text-white mb-3">
+              Sistemas Operacionais &amp; Scripting
+            </h3>
+            <div class="flex flex-wrap gap-1.5">
+              <span class="tech-tag">Linux Corporativo</span>
+              <span class="tech-tag">Debian</span>
+              <span class="tech-tag">Ubuntu Server</span>
+              <span class="tech-tag">Red Hat (RHEL)</span>
+              <span class="tech-tag">WSL2</span>
+              <span class="tech-tag">Shell Script (Bash)</span>
+              <span class="tech-tag">Windows Server</span>
             </div>
+          </div>
 
-            <!-- Cert 3: LPIC-1 -->
-            <div class="glass-panel glass-panel-hover p-6 rounded-2xl border border-gray-800">
-              <div class="flex items-start justify-between gap-3">
-                <div>
-                  <span class="px-2.5 py-0.5 rounded text-[11px] font-mono-code font-semibold bg-emerald-950/80 text-emerald-400 border border-emerald-800/60">
-                    EM ANDAMENTO
-                  </span>
-                  <h4 class="mt-2 text-base font-bold text-white">
-                    LPIC-1: Linux Administrator
-                  </h4>
-                  <div class="text-xs font-mono-code text-gray-400 mt-0.5">Linux Professional Institute</div>
-                </div>
-                <div class="w-10 h-10 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center shrink-0">
-                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
-                  </svg>
-                </div>
-              </div>
-              <p class="mt-3 text-xs text-gray-300 leading-relaxed">
-                Competência profissional em tarefas fundamentais de linha de comando Linux, manutenção de arquivos, inicialização e redes corporativas.
-              </p>
+          <!-- Backend & Linguagens -->
+          <div class="executive-card p-5 rounded-xl">
+            <h3 class="text-base font-semibold text-white mb-3">
+              Backend &amp; Linguagens
+            </h3>
+            <div class="flex flex-wrap gap-1.5">
+              <span class="tech-tag">Java 8</span>
+              <span class="tech-tag">Java 17</span>
+              <span class="tech-tag">Java 21</span>
+              <span class="tech-tag">Spring Boot (2 e 3)</span>
+              <span class="tech-tag">Spring Data JPA</span>
+              <span class="tech-tag">Spring Security</span>
+              <span class="tech-tag">Maven</span>
+              <span class="tech-tag">Gradle</span>
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Bash</span>
             </div>
+          </div>
 
+          <!-- Mensageria & Integração -->
+          <div class="executive-card p-5 rounded-xl">
+            <h3 class="text-base font-semibold text-white mb-3">
+              Mensageria &amp; Integração
+            </h3>
+            <div class="flex flex-wrap gap-1.5">
+              <span class="tech-tag">Apache Kafka</span>
+              <span class="tech-tag">RabbitMQ</span>
+              <span class="tech-tag">Arquitetura Orientada a Eventos (EDA)</span>
+              <span class="tech-tag">APIs RESTful</span>
+              <span class="tech-tag">OpenAPI / Swagger</span>
+            </div>
+          </div>
+
+          <!-- Bancos de Dados -->
+          <div class="executive-card p-5 rounded-xl">
+            <h3 class="text-base font-semibold text-white mb-3">
+              Bancos de Dados
+            </h3>
+            <div class="flex flex-wrap gap-1.5">
+              <span class="tech-tag">PostgreSQL</span>
+              <span class="tech-tag">Oracle Database</span>
+              <span class="tech-tag">MySQL</span>
+              <span class="tech-tag">Modelagem e Indexação</span>
+              <span class="tech-tag">Query Tuning</span>
+              <span class="tech-tag">JasperReports</span>
+            </div>
+          </div>
+
+          <!-- Qualidade de Software -->
+          <div class="executive-card p-5 rounded-xl md:col-span-2">
+            <h3 class="text-base font-semibold text-white mb-3">
+              Qualidade de Software
+            </h3>
+            <div class="flex flex-wrap gap-1.5">
+              <span class="tech-tag">JUnit 5</span>
+              <span class="tech-tag">TestNG</span>
+              <span class="tech-tag">JaCoCo (Cobertura 100% e Quality Gates)</span>
+              <span class="tech-tag">Análise Estática</span>
+              <span class="tech-tag">Clean Architecture</span>
+              <span class="tech-tag">SOLID</span>
+            </div>
           </div>
 
         </div>
 
-      </div>
-    </section>
+      </section>
 
-    <!-- ========================================================================
-         SEÇÃO: FOOTER / CONTATO
-         ======================================================================== -->
-    <section id="contato" class="py-16 md:py-24 px-4 sm:px-6 lg:px-8 border-t border-gray-800/80">
-      <div class="max-w-4xl mx-auto">
+      <!-- ====================================================================
+           5. FORMAÇÃO ACADÊMICA & IDIOMAS
+           ==================================================================== -->
+      <section id="formacao" class="py-16 border-b border-white/[0.08]">
         
-        <!-- Contact Glass Card -->
-        <div class="glass-panel p-8 sm:p-12 rounded-3xl border border-gray-800 relative overflow-hidden">
-          
-          <!-- Background decoration -->
-          <div class="absolute -right-20 -bottom-20 w-80 h-80 bg-sky-500/10 rounded-full blur-3xl pointer-events-none"></div>
+        <h2 class="text-xs font-semibold uppercase tracking-wider text-sky-400 mb-8">
+          Formação Acadêmica &amp; Idiomas
+        </h2>
 
-          <div class="text-center max-w-2xl mx-auto mb-10">
-            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-950/80 border border-emerald-800/60 text-emerald-400 text-xs font-mono-code mb-3">
-              <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-              <span>Vamos Conversar?</span>
+        <div class="space-y-6">
+          
+          <!-- Mestrado -->
+          <div class="executive-card p-6 rounded-xl">
+            <div class="flex flex-col sm:flex-row sm:items-baseline justify-between gap-1 border-b border-white/[0.08] pb-3">
+              <h3 class="text-lg font-bold text-white">
+                Mestrado em Ciência da Computação (M.Sc.)
+              </h3>
+              <div class="text-xs text-gray-400 whitespace-nowrap">
+                Jan 2026 – Atual | UFS
+              </div>
             </div>
-            <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
-              Entre em Contato
-            </h2>
-            <p class="mt-3 text-sm sm:text-base text-gray-300">
-              Disponível para novas oportunidades, projetos corporativos de Cloud DevOps e consultoria de infraestrutura &amp; backend Java.
+            <div class="text-sm font-medium text-sky-400 mt-2">
+              Universidade Federal de Sergipe (UFS)
+            </div>
+            <p class="mt-2 text-sm text-gray-300 leading-relaxed">
+              Pesquisa em sistemas computacionais, sistemas distribuídos e engenharia de software de alto desempenho.
             </p>
           </div>
 
-          <!-- Contact Buttons Grid -->
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            
-            <!-- WhatsApp Action -->
-            <a href="https://wa.me/5579999984882?text=Ol%C3%A1%20Matheus%2C%20vi%20seu%20curr%C3%ADculo%20online%20e%20gostaria%20de%20conversar%20sobre%20uma%20oportunidade." 
-               target="_blank" 
-               rel="noopener noreferrer"
-               class="flex items-center gap-4 p-4 rounded-2xl bg-[#0f172a] border border-emerald-500/30 hover:border-emerald-500/80 hover:bg-[#132238] transition-all group">
-              <div class="w-12 h-12 rounded-xl bg-emerald-500/15 text-emerald-400 flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
-                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
-                </svg>
+          <!-- Bacharelado -->
+          <div class="executive-card p-6 rounded-xl">
+            <div class="flex flex-col sm:flex-row sm:items-baseline justify-between gap-1 border-b border-white/[0.08] pb-3">
+              <h3 class="text-lg font-bold text-white">
+                Bacharelado em Engenharia de Computação (B.S.)
+              </h3>
+              <div class="text-xs text-gray-400 whitespace-nowrap">
+                Jun 2022 – Atual | UFS
               </div>
-              <div class="overflow-hidden">
-                <div class="text-xs text-gray-400 font-medium">WhatsApp Direto</div>
-                <div class="text-sm font-bold text-white group-hover:text-emerald-300 transition-colors">
-                  +55 (79) 99998-4882
-                </div>
-              </div>
-            </a>
-
-            <!-- Email Action -->
-            <button type="button" 
-                    data-copy="matharaupere@gmail.com"
-                    class="copy-btn flex items-center gap-4 p-4 rounded-2xl bg-[#0f172a] border border-gray-800 hover:border-sky-400/80 hover:bg-[#132238] transition-all group text-left cursor-pointer">
-              <div class="w-12 h-12 rounded-xl bg-sky-500/15 text-sky-400 flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
-                </svg>
-              </div>
-              <div class="overflow-hidden">
-                <div class="text-xs text-gray-400 font-medium flex items-center gap-1.5">
-                  <span>E-mail Corporativo</span>
-                  <span class="text-[10px] text-sky-400">(clique para copiar)</span>
-                </div>
-                <div class="text-sm font-bold text-white group-hover:text-sky-300 transition-colors truncate">
-                  matharaupere@gmail.com
-                </div>
-              </div>
-            </button>
-
-            <!-- LinkedIn Action -->
-            <a href="https://linkedin.com/in/matheus-araujo-pereira" 
-               target="_blank" 
-               rel="noopener noreferrer"
-               class="flex items-center gap-4 p-4 rounded-2xl bg-[#0f172a] border border-gray-800 hover:border-sky-400/80 hover:bg-[#132238] transition-all group">
-              <div class="w-12 h-12 rounded-xl bg-sky-600/15 text-sky-400 flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
-                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
-                </svg>
-              </div>
-              <div class="overflow-hidden">
-                <div class="text-xs text-gray-400 font-medium">Rede Profissional</div>
-                <div class="text-sm font-bold text-white group-hover:text-sky-300 transition-colors truncate">
-                  linkedin.com/in/matheus-araujo-pereira
-                </div>
-              </div>
-            </a>
-
-            <!-- GitHub Action -->
-            <a href="https://github.com/matheus-araujo-pereira" 
-               target="_blank" 
-               rel="noopener noreferrer"
-               class="flex items-center gap-4 p-4 rounded-2xl bg-[#0f172a] border border-gray-800 hover:border-gray-500 hover:bg-[#132238] transition-all group">
-              <div class="w-12 h-12 rounded-xl bg-gray-700/20 text-gray-300 flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
-                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
-                </svg>
-              </div>
-              <div class="overflow-hidden">
-                <div class="text-xs text-gray-400 font-medium">Repositórios de Código</div>
-                <div class="text-sm font-bold text-white group-hover:text-gray-200 transition-colors truncate">
-                  github.com/matheus-araujo-pereira
-                </div>
-              </div>
-            </a>
-
+            </div>
+            <div class="text-sm font-medium text-sky-400 mt-2">
+              Universidade Federal de Sergipe (UFS)
+            </div>
+            <p class="mt-2 text-sm text-gray-300 leading-relaxed">
+              Ênfase em redes de computadores, arquitetura de sistemas, sistemas operacionais e sistemas distribuídos.
+            </p>
           </div>
 
-          <!-- Bottom PDF Download Link inside Contact -->
-          <div class="mt-8 pt-6 border-t border-gray-800 text-center">
-            <a href="/curriculo_matheus_araujo_pereira_java_aws_linux.pdf" 
-               download="curriculo_matheus_araujo_pereira_java_aws_linux.pdf"
-               class="inline-flex items-center gap-2 text-xs font-mono-code text-sky-400 hover:text-sky-300 underline underline-offset-4">
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
-              </svg>
-              <span>Download direto da versão em PDF original (curriculo_matheus_araujo_pereira_java_aws_linux.pdf)</span>
-            </a>
+          <!-- Certificações em Andamento & Idiomas -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+            
+            <!-- Certificações -->
+            <div class="executive-card p-6 rounded-xl">
+              <h3 class="text-base font-semibold text-white mb-3">
+                Certificações em Andamento
+              </h3>
+              <ul class="space-y-2.5 text-sm text-gray-300">
+                <li class="flex items-start gap-2">
+                  <span class="text-sky-400 font-bold">•</span>
+                  <span>AWS Certified Solutions Architect – Associate (SAA-C03)</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-sky-400 font-bold">•</span>
+                  <span>LPIC-1 (Linux Administrator)</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Idiomas -->
+            <div class="executive-card p-6 rounded-xl">
+              <h3 class="text-base font-semibold text-white mb-3">
+                Idiomas
+              </h3>
+              <ul class="space-y-2.5 text-sm text-gray-300">
+                <li class="flex items-start gap-2">
+                  <span class="text-emerald-400 font-bold">•</span>
+                  <span><strong class="text-white font-medium">Português:</strong> Nativo</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-sky-400 font-bold">•</span>
+                  <span><strong class="text-white font-medium">Inglês:</strong> Intermediário Alto (B1-B2) — leitura fluente de documentações técnicas, escrita de tickets/RFCs e acompanhamento ágil de squads.</span>
+                </li>
+              </ul>
+            </div>
+
           </div>
 
         </div>
 
-      </div>
-    </section>
+      </section>
+
+      <!-- ====================================================================
+           6. CONTATO DIRETO
+           ==================================================================== -->
+      <section id="contato" class="py-16">
+        <h2 class="text-xs font-semibold uppercase tracking-wider text-sky-400 mb-6">
+          Contato Direto
+        </h2>
+        <div class="executive-card p-6 sm:p-8 rounded-xl flex flex-col sm:flex-row sm:items-center justify-between gap-6">
+          <div>
+            <h3 class="text-xl font-bold text-white">Disponível para novos projetos</h3>
+            <p class="text-sm text-gray-400 mt-1">
+              Aracaju, SE – Brasil (Disponibilidade para posições remotas ou presenciais)
+            </p>
+          </div>
+          <div class="flex flex-wrap items-center gap-3">
+            <a href="mailto:matharaupere@gmail.com" class="px-4 py-2 rounded-lg bg-sky-500 hover:bg-sky-400 text-slate-950 font-semibold text-xs transition-colors">
+              Enviar E-mail
+            </a>
+            <a href="https://wa.me/5579999984882" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-lg bg-white/[0.05] hover:bg-white/[0.1] text-gray-200 border border-white/10 font-medium text-xs transition-colors">
+              WhatsApp
+            </a>
+            <a href="https://linkedin.com/in/matheus-araujo-pereira" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-lg bg-white/[0.05] hover:bg-white/[0.1] text-gray-200 border border-white/10 font-medium text-xs transition-colors">
+              LinkedIn
+            </a>
+          </div>
+        </div>
+      </section>
+
+    </div>
   </main>
 
   <!-- ========================================================================
-       FOOTER
+       7. RODAPÉ MINIMALISTA
        ======================================================================== -->
-  <footer class="border-t border-gray-800/80 bg-[#080D1A] py-8 px-4 sm:px-6 lg:px-8">
-    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-400">
-      
-      <div class="flex items-center gap-2">
-        <span class="font-bold text-white">Matheus Araujo Pereira</span>
-        <span>•</span>
-        <span class="text-sky-400 font-mono-code">Cloud DevOps Engineer</span>
-      </div>
-
-      <div class="flex items-center gap-3 font-mono-code text-[11px]">
-        <span>Java 21</span>
-        <span>•</span>
-        <span>AWS Cloud</span>
-        <span>•</span>
-        <span>Enterprise Linux</span>
-        <span>•</span>
-        <span>Vercel Deploy</span>
-      </div>
-
+  <footer class="border-t border-white/[0.08] py-8 text-xs text-gray-500">
+    <div class="max-w-4xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
       <div>
-        © 2026 Matheus Pereira. Todos os direitos reservados.
+        © 2026 Matheus Araujo Pereira. Todos os direitos reservados.
       </div>
-
+      <div class="flex items-center gap-4 text-gray-400">
+        <a href="https://github.com/matheus-araujo-pereira" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">GitHub</a>
+        <a href="https://linkedin.com/in/matheus-araujo-pereira" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">LinkedIn</a>
+        <a href="/curriculo_matheus_araujo_pereira_java_aws_linux.pdf" download class="hover:text-white transition-colors">PDF</a>
+        <span>•</span>
+        <span>Deploy contínuo via Vercel</span>
+      </div>
     </div>
   </footer>
 
-  <!-- ========================================================================
-       FLOATING ACTIONS: TOAST & BACK TO TOP
-       ======================================================================== -->
-  <!-- Toast notification -->
-  <div id="toast-notification" 
-       class="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 px-4 py-2.5 rounded-xl bg-gray-900/95 border border-sky-500/40 text-sky-300 text-xs font-mono-code shadow-2xl backdrop-blur-md opacity-0 translate-y-4 pointer-events-none transition-all duration-300 flex items-center gap-2">
-    <span>Texto copiado com sucesso!</span>
-  </div>
-
-  <!-- Back to top button -->
-  <button id="back-to-top" 
-          type="button" 
-          aria-label="Voltar ao topo da página"
-          class="fixed bottom-6 right-6 z-40 p-3 rounded-xl bg-[#111827]/90 border border-gray-800 hover:border-sky-400 text-gray-300 hover:text-white shadow-xl backdrop-blur-md opacity-0 translate-y-4 pointer-events-none transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-sky-400 cursor-pointer">
-    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
-    </svg>
-  </button>
-
-  <!-- Vite entry script -->
   <script type="module" src="/src/main.js"></script>
 </body>
 </html>
-
