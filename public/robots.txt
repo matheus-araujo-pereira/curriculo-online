@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://matheus-pereira-devops.vercel.app/sitemap.xml

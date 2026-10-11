@@ -1,0 +1,17 @@
+{
+  "name": "curriculo-online",
+  "version": "1.0.0",
+  "description": "Portfólio e Currículo Online Moderno - Matheus Pereira | Cloud DevOps Engineer (Java • AWS • Linux)",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.3",
+    "tailwindcss": "^4.1.3",
+    "vite": "^6.2.0"
+  }
+}
