@@ -334,3 +334,4 @@ function escapeHtml(string) {
   div.textContent = string;
   return div.innerHTML;
 }
+

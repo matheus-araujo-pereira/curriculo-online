@@ -167,3 +167,4 @@ Para configurar nas opções de domínio do projeto na Vercel (*Settings* > *Dom
 ---
 
 Desenvolvido por **Matheus Araujo Pereira** • 2026
+
